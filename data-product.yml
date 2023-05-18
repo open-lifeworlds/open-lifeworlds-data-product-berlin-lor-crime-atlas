@@ -1,0 +1,17 @@
+---
+id: berlin-lor-cirme-atlas
+name: Berlin LOR crime atlas
+metadata:
+  - ownership:
+  - schema:
+description:
+input_ports:
+output_ports:
+metrics:
+  - quality:
+  - operational:
+classification:
+tags:
+  - berlin
+  - lor
+  - crime

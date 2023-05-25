@@ -16,11 +16,12 @@ def convert_data_to_csv(source_path, results_path, clean=False, quiet=False):
 
         for file_name in sorted(files):
             source_file_path = os.path.join(source_path, subdir, file_name)
-            convert_file_to_csv(source_file_path, clean=clean, quiet=quiet)
+            convert_file_to_csv(source_path, source_file_path, clean=clean, quiet=quiet)
 
 
-def convert_file_to_csv(source_file_path, clean=False, quiet=False):
+def convert_file_to_csv(source_path, source_file_path, clean=False, quiet=False):
     source_file_name, source_file_extension = os.path.splitext(source_file_path)
+    source_file_name = source_file_name.split(os.path.sep)[-1]
 
     # Determine engine
     if source_file_extension == ".xlsx":
@@ -50,20 +51,25 @@ def convert_file_to_csv(source_file_path, clean=False, quiet=False):
             dataframe = pd.read_excel(source_file_path, engine=engine, sheet_name=sheet, skiprows=skiprows,
                                       usecols=list(range(0, len(names))), names=names) \
                 .drop(columns=drop_columns, errors="ignore") \
+                .replace("Eso", 0) \
                 .dropna() \
                 .assign(id=lambda x: x["id"].astype(str).str.zfill(6))
 
-            # Drop columns that represent the a complete district
+            # Drop columns that represent the a complete district or the complete city
             dataframe = dataframe[~dataframe["id"].str.endswith("0000")]
+            dataframe = dataframe[~dataframe["id"].str.startswith("9999")]
+
+
 
             year = sheet.split(sep="_")[1]
             half_year = "00"
-            file_path_csv = f"{source_file_name}-{year}-{half_year}.csv"
+            file_path_csv = os.path.join(source_path, f"{source_file_name}-{year}-{half_year}", f"{source_file_name}-{year}-{half_year}.csv")
 
             # Check if result needs to be generated
             if clean or not os.path.exists(file_path_csv):
                 # Write csv file
                 if dataframe.shape[0] > 0:
+                    os.makedirs(os.path.join(source_path, f"{source_file_name}-{year}-{half_year}"), exist_ok=True)
                     dataframe.to_csv(file_path_csv, index=False)
                     if not quiet:
                         print(f"✓ Convert {os.path.basename(file_path_csv)}")

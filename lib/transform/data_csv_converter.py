@@ -51,7 +51,7 @@ def convert_file_to_csv(source_path, source_file_path, clean=False, quiet=False)
             dataframe = pd.read_excel(source_file_path, engine=engine, sheet_name=sheet, skiprows=skiprows,
                                       usecols=list(range(0, len(names))), names=names) \
                 .drop(columns=drop_columns, errors="ignore") \
-                .replace("Eso", 0) \
+                .replace("Eso", None) \
                 .dropna() \
                 .assign(id=lambda x: x["id"].astype(str).str.zfill(6))
 

@@ -23,8 +23,8 @@ statistic_properties = [
     "residential_burglary",
     "fire_offences",
     "arson",
-    "damage_property",
-    "damage_property_by_graffiti",
+    "damage_to_property",
+    "damage_to_property_by_graffiti",
     "narcotics_offences",
     "kieztaten"
 ]

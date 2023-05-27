@@ -44,7 +44,7 @@ def convert_file_to_csv(source_path, source_file_path, clean=False, quiet=False)
                      "theft", "motor_vehicle_theft", "theft_from_motor_vehicle", "bicycle_theft",
                      "residential_burglary",
                      "fire_offences", "arson",
-                     "damage_property", "damage_property_by_graffiti",
+                     "damage_to_property", "damage_to_property_by_graffiti",
                      "narcotics_offences", "kieztaten"]
             drop_columns = ["name"]
 

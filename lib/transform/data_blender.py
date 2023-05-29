@@ -208,7 +208,7 @@ def add_property_with_modifiers(feature, statistics, property_name, total_area_s
                 feature["properties"][f"{property_name}_per_sqkm"] = round(
                     float(statistics[property_name].sum()) / total_area_sqkm, 2)
             if inhabitants is not None:
-                feature["properties"][f"{property_name}_per_per_100k_inhabitant"] = round(
+                feature["properties"][f"{property_name}_per_100k_inhabitant"] = round(
                     float(statistics[property_name].sum()) / (inhabitants  / 100_000), 2)
         except ValueError:
             feature["properties"][f"{property_name}"] = 0
@@ -216,14 +216,14 @@ def add_property_with_modifiers(feature, statistics, property_name, total_area_s
             if total_area_sqkm is not None:
                 feature["properties"][f"{property_name}_per_sqkm"] = 0
             if inhabitants is not None:
-                feature["properties"][f"{property_name}_per_per_100k_inhabitant"] = 0
+                feature["properties"][f"{property_name}_per_100k_inhabitant"] = 0
         except TypeError:
             feature["properties"][f"{property_name}"] = 0
 
             if total_area_sqkm is not None:
                 feature["properties"][f"{property_name}_per_sqkm"] = 0
             if inhabitants is not None:
-                feature["properties"][f"{property_name}_per_per_100k_inhabitant"] = 0
+                feature["properties"][f"{property_name}_per_100k_inhabitant"] = 0
 
 
 def load_population_statistics(file_path):

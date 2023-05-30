@@ -66,17 +66,17 @@ output_ports:
       license: CC-BY-4.0
       updated: 2023-10-23
     files:
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2013-00.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2014-00.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2016-00.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2017-00.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2018-00.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2019-00.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2020-00.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2021-00.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2022-00.csv
-  - id: berlin-lor-crime-atlas-csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2016-00/berlin-lor-crime-atlas-2016-00.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2017-00/berlin-lor-crime-atlas-2017-00.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2018-00/berlin-lor-crime-atlas-2018-00.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2019-00/berlin-lor-crime-atlas-2019-00.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2020-00/berlin-lor-crime-atlas-2020-00.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2021-00/berlin-lor-crime-atlas-2021-00.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2022-00/berlin-lor-crime-atlas-2022-00.csv
+  - id: berlin-lor-crime-atlas-geojson
     metadata:
       name: Berlin LOR crime atlas geojson
       author: Open Lifeworlds
@@ -84,12 +84,12 @@ output_ports:
       license: CC-BY-4.0
       updated: 2023-10-23
     files:
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2013-00-district-regions.geojson
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2013-00-districts.geojson
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2013-00-forecast-areas.geojson
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2014-00-district-regions.geojson
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2014-00-districts.geojson
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2014-00-forecast-areas.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-district-regions.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-forecast-areas.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00-district-regions.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00-forecast-areas.geojson
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00-district-regions.geojson
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00-districts.geojson
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00-forecast-areas.geojson

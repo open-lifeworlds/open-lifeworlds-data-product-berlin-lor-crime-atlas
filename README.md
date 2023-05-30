@@ -6,10 +6,10 @@
     <img src="logo_with_text.png" alt="Logo" height="80">
   </a>
 
-  <h1 align="center">Open Lifeworlds Data Product - Berlin LOR cirme atlas</h1>
+  <h1 align="center">Open Lifeworlds Data Product - Berlin LOR crime atlas</h1>
 
   <p align="center">
-    Data product providing Berlin LOR cirme atlas</a>
+    Data product providing Berlin LOR crime atlas data</a>
   </p>
 </p>
 

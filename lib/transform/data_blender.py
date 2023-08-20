@@ -185,7 +185,7 @@ def calculate_averages(year, half_year, geojson, csv_statistics, json_statistics
         values |= {f"{property_name}_per_sqkm": round(float(total / total_sqkm), 2)
                    for property_name, total in values.items()}
     if total_inhabitants is not None:
-        values |= {f"{property_name}_per_100k_inhabitant": round(float(total / (total_inhabitants * 100_000)), 2)
+        values |= {f"{property_name}_per_100k_inhabitant": round(float(total / (total_inhabitants / 100_000)), 2)
                    for property_name, total in values.items()}
 
     json_statistics[year][half_year][0] = values

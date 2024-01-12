@@ -2,26 +2,26 @@
 id: berlin-lor-crime-atlas
 name: Berlin LOR Crime Atlas
 metadata:
-  - ownership: Open Lifeworlds
-  - domain: geodata
-  - schema:
-      - offences: total number of offences
-      - robbery: total number of cases of robberies
-      - street_robbery_purse_snatching: number of street robberies and purse snatching
-      - bodily_harm: total number of cases of bodily harm
-      - dangerous_and_grievous_bodily_harm: number of cases of dangerous and grievous bodily harm
-      - deprivation_of_liberty_coercion_threat_stalking: number of cases of deprivation of liberty, coercion, threat, stalking
-      - theft: total number of theft cases
-      - motor_vehicle_theft: number of vehicle theft cases
-      - theft_from_motor_vehicle: number of cases of theft from motor vehicle
-      - bicycle_theft: number of bicycle theft cases
-      - residential_burglary: number of cases of residential burglary
-      - fire_offences: total number of fire offences
-      - arson: number of cases of arson
-      - damage_to_property: total number of cases of damage to property
-      - damage_to_property_by_graffiti: number of cases of damage to property by graffiti
-      - narcotics_offences: number of narcotics offences
-      - kieztaten: number of offences with a strong connection to the offender's place of residence
+  ownership: Open Lifeworlds
+  domain: geodata
+  schema:
+    - offences: total number of offences
+    - robbery: total number of cases of robberies
+    - street_robbery_purse_snatching: number of street robberies and purse snatching
+    - bodily_harm: total number of cases of bodily harm
+    - dangerous_and_grievous_bodily_harm: number of cases of dangerous and grievous bodily harm
+    - deprivation_of_liberty_coercion_threat_stalking: number of cases of deprivation of liberty, coercion, threat, stalking
+    - theft: total number of theft cases
+    - motor_vehicle_theft: number of vehicle theft cases
+    - theft_from_motor_vehicle: number of cases of theft from motor vehicle
+    - bicycle_theft: number of bicycle theft cases
+    - residential_burglary: number of cases of residential burglary
+    - fire_offences: total number of fire offences
+    - arson: number of cases of arson
+    - damage_to_property: total number of cases of damage to property
+    - damage_to_property_by_graffiti: number of cases of damage to property by graffiti
+    - narcotics_offences: number of narcotics offences
+    - kieztaten: number of offences with a strong connection to the offender's place of residence
 description: This data products provides Berlin crime data on different LOR hierarchy levels
 input_ports:
   - id: berlin-lor-geodata

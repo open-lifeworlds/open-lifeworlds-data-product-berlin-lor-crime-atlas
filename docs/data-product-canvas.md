@@ -4,8 +4,9 @@
 
 **Input ports define the format and protocol in which data can be read (database, file, API, visualizations)**
 
-This data product uses LOR geodata provided by [Open Lifeworlds](https://github.com/open-lifeworlds) available under the
-following URLs
+This data product uses LOR geodata provided by data
+product [open-lifeworlds-data-product-berlin-lor-geodata](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata)
+published under the following URLs
 
 * [berlin-lor-districts/berlin-lor-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-districts/berlin-lor-districts.geojson)
 * [berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson)
@@ -15,11 +16,26 @@ following URLs
 * [berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson)
 * [berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson)
 
-and statistical crime data provided
-by [Polizei Berlin](https://daten.berlin.de/datensaetze/kriminalit%C3%A4tsatlas-berlin/) available under the following
-URLs
+and statistical crime data provided by data
+product [open-lifeworlds-data-product-berlin-lor-crime-atlas-source-aligned](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas-source-aligned)
+published under the following URLs
 
-* [Fallzahlen&HZ%202013-2022.xlsx](https://www.kriminalitaetsatlas.berlin.de/K-Atlas/bezirke/Fallzahlen&HZ%202013-2022.xlsx)
+* [berlin-lor-crime-atlas-2013-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas-source-aligned/main/data/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00.csv)
+* [berlin-lor-crime-atlas-2014-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas-source-aligned/main/data/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00.csv)
+* [berlin-lor-crime-atlas-2015-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas-source-aligned/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00.csv)
+* [berlin-lor-crime-atlas-2016-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas-source-aligned/main/data/berlin-lor-crime-atlas-2016-00/berlin-lor-crime-atlas-2016-00.csv)
+* [berlin-lor-crime-atlas-2017-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas-source-aligned/main/data/berlin-lor-crime-atlas-2017-00/berlin-lor-crime-atlas-2017-00.csv)
+* [berlin-lor-crime-atlas-2018-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas-source-aligned/main/data/berlin-lor-crime-atlas-2018-00/berlin-lor-crime-atlas-2018-00.csv)
+* [berlin-lor-crime-atlas-2019-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas-source-aligned/main/data/berlin-lor-crime-atlas-2019-00/berlin-lor-crime-atlas-2019-00.csv)
+* [berlin-lor-crime-atlas-2020-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas-source-aligned/main/data/berlin-lor-crime-atlas-2020-00/berlin-lor-crime-atlas-2020-00.csv)
+* [berlin-lor-crime-atlas-2021-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas-source-aligned/main/data/berlin-lor-crime-atlas-2021-00/berlin-lor-crime-atlas-2021-00.csv)
+* [berlin-lor-crime-atlas-2022-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas-source-aligned/main/data/berlin-lor-crime-atlas-2022-00/berlin-lor-crime-atlas-2022-00.csv)
+
+and statistical population data provided by data
+product [open-lifeworlds-data-product-berlin-lor-population](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population)
+published under the following URLs
+
+* [berlin-lor-population-statistics/berlin-lor-population-statistics.json](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/berlin-lor-population-statistics/berlin-lor-population-statistics.json)
 
 ## Data Product Design
 
@@ -27,7 +43,6 @@ URLs
 **Ingestion, storage, transport, wrangling, cleaning, transformations, enrichment, augmentation, analytics, SQL
 statements, or used data platform services.**
 
-* [converts Excel data into csv](../lib/transform/data_csv_converter.py)
 * [blends statistical data into geojson](../lib/transform/data_blender.py) on different LOR area hierarchy levels
 * [aggregates statistical data into json](../lib/transform/data_blender.py) on different LOR area hierarchy levels
 
@@ -36,19 +51,6 @@ statements, or used data platform services.**
 **Output ports define the format and protocol in which data can be exposed (db, file, API, visualizations)**
 
 The data of this data product is available under the following URLs
-
-* [berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00.csv)
-* [berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00.csv)
-* [berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00.csv)
-* [berlin-lor-crime-atlas-2016-00/berlin-lor-crime-atlas-2016-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2016-00/berlin-lor-crime-atlas-2016-00.csv)
-* [berlin-lor-crime-atlas-2017-00/berlin-lor-crime-atlas-2017-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2017-00/berlin-lor-crime-atlas-2017-00.csv)
-* [berlin-lor-crime-atlas-2018-00/berlin-lor-crime-atlas-2018-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2018-00/berlin-lor-crime-atlas-2018-00.csv)
-* [berlin-lor-crime-atlas-2019-00/berlin-lor-crime-atlas-2019-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2019-00/berlin-lor-crime-atlas-2019-00.csv)
-* [berlin-lor-crime-atlas-2020-00/berlin-lor-crime-atlas-2020-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2020-00/berlin-lor-crime-atlas-2020-00.csv)
-* [berlin-lor-crime-atlas-2021-00/berlin-lor-crime-atlas-2021-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2021-00/berlin-lor-crime-atlas-2021-00.csv)
-* [berlin-lor-crime-atlas-2022-00/berlin-lor-crime-atlas-2022-00.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2022-00/berlin-lor-crime-atlas-2022-00.csv)
-
-Additionally, data blended into geojson is available under the following URLs
 
 * [berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-district-regions.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-districts.geojson)
@@ -146,9 +148,7 @@ Completeness of this data product is verified via [data_metrics.py](../lib/metri
 
 **Who is the consumer of the Data Product?**
 
-Consumers of this data product may include
-
-* projects that display statistical data based on LOR areas on maps or graphs
+Consumers of this data product may include projects that display statistical data based on LOR areas on maps or graphs.
 
 ## Use Case
 

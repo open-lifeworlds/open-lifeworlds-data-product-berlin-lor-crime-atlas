@@ -1,4 +1,4 @@
-# Data Product Canvas - Berlin LOR housing stock
+# Data Product Canvas - Berlin LOR Crime Atlas
 
 ## Input Ports
 

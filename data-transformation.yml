@@ -1,0 +1,259 @@
+---
+attribute_groups:
+  case_numbers: &case_numbers
+    - name: offences
+    - name: robbery
+    - name: street_robbery_purse_snatching
+    - name: bodily_harm
+    - name: dangerous_and_grievous_bodily_harm
+    - name: deprivation_of_liberty_coercion_threat_stalking
+    - name: theft,motor_vehicle_theft
+    - name: theft_from_motor_vehicle
+    - name: bicycle_theft
+    - name: residential_burglary
+    - name: fire_offences
+    - name: arson
+    - name: damage_to_property
+    - name: damage_to_property_by_graffiti
+    - name: narcotics_offences
+    - name: kieztaten
+    - { name: offences_per_sqkm, numerator: offences, denominator_area_sqkm: True }
+    - { name: robbery_per_sqkm, numerator: robbery, denominator_area_sqkm: True }
+    - { name: street_robbery_purse_snatching_per_sqkm, numerator: street_robbery_purse_snatching, denominator_area_sqkm: True }
+    - { name: bodily_harm_per_sqkm, numerator: bodily_harm, denominator_area_sqkm: True }
+    - { name: dangerous_and_grievous_bodily_harm_per_sqkm, numerator: dangerous_and_grievous_bodily_harm, denominator_area_sqkm: True }
+    - { name: deprivation_of_liberty_coercion_threat_stalking_per_sqkm, numerator: deprivation_of_liberty_coercion_threat_stalking, denominator_area_sqkm: True }
+    - { name: theft,motor_vehicle_theft_per_sqkm, numerator: motor_vehicle_theft, denominator_area_sqkm: True }
+    - { name: theft_from_motor_vehicle_per_sqkm, numerator: theft_from_motor_vehicle, denominator_area_sqkm: True }
+    - { name: bicycle_theft_per_sqkm, numerator: bicycle_theft, denominator_area_sqkm: True }
+    - { name: residential_burglary_per_sqkm, numerator: residential_burglary, denominator_area_sqkm: True }
+    - { name: fire_offences_per_sqkm, numerator: fire_offences, denominator_area_sqkm: True }
+    - { name: arson_per_sqkm, numerator: arson, denominator_area_sqkm: True }
+    - { name: damage_to_property_per_sqkm, numerator: damage_to_property, denominator_area_sqkm: True }
+    - { name: damage_to_property_by_graffiti_per_sqkm, numerator: damage_to_property_by_graffiti, denominator_area_sqkm: True }
+    - { name: narcotics_offences_per_sqkm, numerator: narcotics_offences, denominator_area_sqkm: True }
+    - { name: kieztaten_per_sqkm, numerator: kieztaten, denominator_area_sqkm: True }
+  frequency_numbers: &frequency_numbers
+    - name: offences
+    - name: robbery
+    - name: street_robbery_purse_snatching
+    - name: bodily_harm
+    - name: dangerous_and_grievous_bodily_harm
+    - name: deprivation_of_liberty_coercion_threat_stalking
+    - name: theft,motor_vehicle_theft
+    - name: theft_from_motor_vehicle
+    - name: bicycle_theft
+    - name: residential_burglary
+    - name: fire_offences
+    - name: arson
+    - name: damage_to_property
+    - name: damage_to_property_by_graffiti
+    - name: narcotics_offences
+    - name: kieztaten
+input_port_groups:
+  - id: berlin-lor-crime-atlas
+    input_ports:
+      - id: berlin-lor-crime-atlas-2012-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-crime-atlas-2012-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2012-00-case-numbers-districts.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2012-00-frequency-numbers-districts.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2012-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2012-00-case-numbers-forecast-areas.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2012-00-frequency-numbers-forecast-areas.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2012-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2012-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2012-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+      - id: berlin-lor-crime-atlas-2013-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-crime-atlas-2013-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2013-00-case-numbers-districts.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2013-00-frequency-numbers-districts.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2013-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2013-00-case-numbers-forecast-areas.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2013-00-frequency-numbers-forecast-areas.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2013-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2013-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2013-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+      - id: berlin-lor-crime-atlas-2014-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-crime-atlas-2014-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2014-00-case-numbers-districts.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2014-00-frequency-numbers-districts.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2014-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2014-00-case-numbers-forecast-areas.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2014-00-frequency-numbers-forecast-areas.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2014-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2014-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2014-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+      - id: berlin-lor-crime-atlas-2015-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-crime-atlas-2015-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2015-00-case-numbers-districts.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2015-00-frequency-numbers-districts.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2015-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2015-00-case-numbers-forecast-areas.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2015-00-frequency-numbers-forecast-areas.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2015-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2015-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2015-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+      - id: berlin-lor-crime-atlas-2016-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-crime-atlas-2016-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2016-00-case-numbers-districts.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2016-00-frequency-numbers-districts.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2016-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2016-00-case-numbers-forecast-areas.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2016-00-frequency-numbers-forecast-areas.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2016-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2016-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2016-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+      - id: berlin-lor-crime-atlas-2017-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-crime-atlas-2017-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2017-00-case-numbers-districts.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2017-00-frequency-numbers-districts.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2017-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2017-00-case-numbers-forecast-areas.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2017-00-frequency-numbers-forecast-areas.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2017-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2017-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2017-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+      - id: berlin-lor-crime-atlas-2018-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-crime-atlas-2018-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2018-00-case-numbers-districts.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2018-00-frequency-numbers-districts.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2018-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2018-00-case-numbers-forecast-areas.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2018-00-frequency-numbers-forecast-areas.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2018-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2018-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2018-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+      - id: berlin-lor-crime-atlas-2019-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-crime-atlas-2019-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2019-00-case-numbers-districts.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2019-00-frequency-numbers-districts.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2019-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2019-00-case-numbers-forecast-areas.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2019-00-frequency-numbers-forecast-areas.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2019-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2019-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2019-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+      - id: berlin-lor-crime-atlas-2020-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-crime-atlas-2020-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2020-00-case-numbers-districts.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2020-00-frequency-numbers-districts.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2020-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2020-00-case-numbers-forecast-areas.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2020-00-frequency-numbers-forecast-areas.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2020-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2020-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2020-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+      - id: berlin-lor-crime-atlas-2021-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-crime-atlas-2021-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2021-00-case-numbers-districts.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2021-00-frequency-numbers-districts.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2021-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2021-00-case-numbers-forecast-areas.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2021-00-frequency-numbers-forecast-areas.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2021-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2021-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2021-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+      - id: berlin-lor-crime-atlas-2022-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-crime-atlas-2022-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2022-00-case-numbers-districts.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2022-00-frequency-numbers-districts.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2022-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2022-00-case-numbers-forecast-areas.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2022-00-frequency-numbers-forecast-areas.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2022-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2022-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2022-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+      - id: berlin-lor-crime-atlas-2023-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-crime-atlas-2023-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2023-00-case-numbers-districts.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2023-00-frequency-numbers-districts.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2023-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2023-00-case-numbers-forecast-areas.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2023-00-frequency-numbers-forecast-areas.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-crime-atlas-2023-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-crime-atlas-2023-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
+            - { source_file_name: berlin-lor-crime-atlas-2023-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }

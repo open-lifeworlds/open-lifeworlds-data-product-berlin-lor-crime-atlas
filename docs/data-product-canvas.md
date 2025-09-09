@@ -330,39 +330,51 @@
 
 **Files**
 
+* [berlin-lor-crime-atlas-2012-00-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2012-00-city.geojson)
 * [berlin-lor-crime-atlas-2012-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2012-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2012-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2012-00-districts.geojson)
 * [berlin-lor-crime-atlas-2012-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2012-00-forecast-areas.geojson)
+* [berlin-lor-crime-atlas-2013-00-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2013-00-city.geojson)
 * [berlin-lor-crime-atlas-2013-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2013-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2013-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2013-00-districts.geojson)
 * [berlin-lor-crime-atlas-2013-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2013-00-forecast-areas.geojson)
+* [berlin-lor-crime-atlas-2014-00-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2014-00-city.geojson)
 * [berlin-lor-crime-atlas-2014-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2014-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2014-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2014-00-districts.geojson)
 * [berlin-lor-crime-atlas-2014-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2014-00-forecast-areas.geojson)
+* [berlin-lor-crime-atlas-2015-00-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2015-00-city.geojson)
 * [berlin-lor-crime-atlas-2015-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2015-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2015-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2015-00-districts.geojson)
 * [berlin-lor-crime-atlas-2015-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2015-00-forecast-areas.geojson)
+* [berlin-lor-crime-atlas-2016-00-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2016-00-city.geojson)
 * [berlin-lor-crime-atlas-2016-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2016-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2016-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2016-00-districts.geojson)
 * [berlin-lor-crime-atlas-2016-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2016-00-forecast-areas.geojson)
+* [berlin-lor-crime-atlas-2017-00-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2017-00-city.geojson)
 * [berlin-lor-crime-atlas-2017-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2017-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2017-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2017-00-districts.geojson)
 * [berlin-lor-crime-atlas-2017-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2017-00-forecast-areas.geojson)
+* [berlin-lor-crime-atlas-2018-00-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2018-00-city.geojson)
 * [berlin-lor-crime-atlas-2018-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2018-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2018-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2018-00-districts.geojson)
 * [berlin-lor-crime-atlas-2018-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2018-00-forecast-areas.geojson)
+* [berlin-lor-crime-atlas-2019-00-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2019-00-city.geojson)
 * [berlin-lor-crime-atlas-2019-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2019-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2019-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2019-00-districts.geojson)
 * [berlin-lor-crime-atlas-2019-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2019-00-forecast-areas.geojson)
+* [berlin-lor-crime-atlas-2020-00-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2020-00-city.geojson)
 * [berlin-lor-crime-atlas-2020-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2020-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2020-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2020-00-districts.geojson)
 * [berlin-lor-crime-atlas-2020-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2020-00-forecast-areas.geojson)
+* [berlin-lor-crime-atlas-2021-00-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2021-00-city.geojson)
 * [berlin-lor-crime-atlas-2021-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2021-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2021-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2021-00-districts.geojson)
 * [berlin-lor-crime-atlas-2021-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2021-00-forecast-areas.geojson)
+* [berlin-lor-crime-atlas-2022-00-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2022-00-city.geojson)
 * [berlin-lor-crime-atlas-2022-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2022-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2022-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2022-00-districts.geojson)
 * [berlin-lor-crime-atlas-2022-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2022-00-forecast-areas.geojson)
+* [berlin-lor-crime-atlas-2023-00-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2023-00-city.geojson)
 * [berlin-lor-crime-atlas-2023-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2023-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2023-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2023-00-districts.geojson)
 * [berlin-lor-crime-atlas-2023-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/refs/heads/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2023-00-forecast-areas.geojson)
@@ -387,39 +399,51 @@
 
 | Name | Value |
 | --- | --- |
+| berlin-lor-crime-atlas-2012-00-city.geojson | 100 |
 | berlin-lor-crime-atlas-2012-00-districts.geojson | 100 |
 | berlin-lor-crime-atlas-2012-00-forecast-areas.geojson | 100 |
 | berlin-lor-crime-atlas-2012-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2013-00-city.geojson | 100 |
 | berlin-lor-crime-atlas-2013-00-districts.geojson | 100 |
 | berlin-lor-crime-atlas-2013-00-forecast-areas.geojson | 100 |
 | berlin-lor-crime-atlas-2013-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2014-00-city.geojson | 100 |
 | berlin-lor-crime-atlas-2014-00-districts.geojson | 100 |
 | berlin-lor-crime-atlas-2014-00-forecast-areas.geojson | 100 |
 | berlin-lor-crime-atlas-2014-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2015-00-city.geojson | 100 |
 | berlin-lor-crime-atlas-2015-00-districts.geojson | 100 |
 | berlin-lor-crime-atlas-2015-00-forecast-areas.geojson | 100 |
 | berlin-lor-crime-atlas-2015-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2016-00-city.geojson | 100 |
 | berlin-lor-crime-atlas-2016-00-districts.geojson | 100 |
 | berlin-lor-crime-atlas-2016-00-forecast-areas.geojson | 100 |
 | berlin-lor-crime-atlas-2016-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2017-00-city.geojson | 100 |
 | berlin-lor-crime-atlas-2017-00-districts.geojson | 100 |
 | berlin-lor-crime-atlas-2017-00-forecast-areas.geojson | 100 |
 | berlin-lor-crime-atlas-2017-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2018-00-city.geojson | 100 |
 | berlin-lor-crime-atlas-2018-00-districts.geojson | 100 |
 | berlin-lor-crime-atlas-2018-00-forecast-areas.geojson | 100 |
 | berlin-lor-crime-atlas-2018-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2019-00-city.geojson | 100 |
 | berlin-lor-crime-atlas-2019-00-districts.geojson | 100 |
 | berlin-lor-crime-atlas-2019-00-forecast-areas.geojson | 100 |
 | berlin-lor-crime-atlas-2019-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2020-00-city.geojson | 100 |
 | berlin-lor-crime-atlas-2020-00-districts.geojson | 100 |
 | berlin-lor-crime-atlas-2020-00-forecast-areas.geojson | 100 |
 | berlin-lor-crime-atlas-2020-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2021-00-city.geojson | 100 |
 | berlin-lor-crime-atlas-2021-00-districts.geojson | 100 |
 | berlin-lor-crime-atlas-2021-00-forecast-areas.geojson | 100 |
 | berlin-lor-crime-atlas-2021-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2022-00-city.geojson | 100 |
 | berlin-lor-crime-atlas-2022-00-districts.geojson | 100 |
 | berlin-lor-crime-atlas-2022-00-forecast-areas.geojson | 100 |
 | berlin-lor-crime-atlas-2022-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2023-00-city.geojson | 100 |
 | berlin-lor-crime-atlas-2023-00-districts.geojson | 100 |
 | berlin-lor-crime-atlas-2023-00-forecast-areas.geojson | 100 |
 | berlin-lor-crime-atlas-2023-00-district-regions.geojson | 100 |

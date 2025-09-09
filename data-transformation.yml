@@ -7,7 +7,8 @@ attribute_groups:
     - name: bodily_harm
     - name: dangerous_and_grievous_bodily_harm
     - name: deprivation_of_liberty_coercion_threat_stalking
-    - name: theft,motor_vehicle_theft
+    - name: theft
+    - name: motor_vehicle_theft
     - name: theft_from_motor_vehicle
     - name: bicycle_theft
     - name: residential_burglary
@@ -23,7 +24,8 @@ attribute_groups:
     - { name: bodily_harm_per_sqkm, numerator: bodily_harm, denominator_area_sqkm: True }
     - { name: dangerous_and_grievous_bodily_harm_per_sqkm, numerator: dangerous_and_grievous_bodily_harm, denominator_area_sqkm: True }
     - { name: deprivation_of_liberty_coercion_threat_stalking_per_sqkm, numerator: deprivation_of_liberty_coercion_threat_stalking, denominator_area_sqkm: True }
-    - { name: theft,motor_vehicle_theft_per_sqkm, numerator: motor_vehicle_theft, denominator_area_sqkm: True }
+    - { name: theft_per_sqkm, numerator: theft, denominator_area_sqkm: True }
+    - { name: motor_vehicle_theft_per_sqkm, numerator: motor_vehicle_theft, denominator_area_sqkm: True }
     - { name: theft_from_motor_vehicle_per_sqkm, numerator: theft_from_motor_vehicle, denominator_area_sqkm: True }
     - { name: bicycle_theft_per_sqkm, numerator: bicycle_theft, denominator_area_sqkm: True }
     - { name: residential_burglary_per_sqkm, numerator: residential_burglary, denominator_area_sqkm: True }
@@ -40,7 +42,8 @@ attribute_groups:
     - name: bodily_harm
     - name: dangerous_and_grievous_bodily_harm
     - name: deprivation_of_liberty_coercion_threat_stalking
-    - name: theft,motor_vehicle_theft
+    - name: theft
+    - name: motor_vehicle_theft
     - name: theft_from_motor_vehicle
     - name: bicycle_theft
     - name: residential_burglary

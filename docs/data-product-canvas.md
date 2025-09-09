@@ -7,7 +7,7 @@
 * description: Data products providing Berlin crime data on different LOR hierarchy levels
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas
 * license: CC-BY 4.0
-* updated: 2025-07-07
+* updated: 2025-10-21
 
 ## Input Ports
 
@@ -326,7 +326,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/tree/main/data/03-gold/berlin-lor-crime-atlas-geojson
 * license: CC-BY 4.0
-* updated: 2025-07-07
+* updated: 2025-10-21
 
 **Files**
 
@@ -372,7 +372,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/tree/main/data/03-gold/berlin-lor-crime-atlas-statistics
 * license: CC-BY 4.0
-* updated: 2025-07-07
+* updated: 2025-10-21
 
 **Files**
 
@@ -387,42 +387,42 @@
 
 | Name | Value |
 | --- | --- |
-| berlin-lor-crime-atlas-2012-00-districts.geojson | 0 |
-| berlin-lor-crime-atlas-2012-00-forecast-areas.geojson | 0 |
-| berlin-lor-crime-atlas-2012-00-district-regions.geojson | 0 |
-| berlin-lor-crime-atlas-2013-00-districts.geojson | 0 |
-| berlin-lor-crime-atlas-2013-00-forecast-areas.geojson | 0 |
-| berlin-lor-crime-atlas-2013-00-district-regions.geojson | 0 |
-| berlin-lor-crime-atlas-2014-00-districts.geojson | 0 |
-| berlin-lor-crime-atlas-2014-00-forecast-areas.geojson | 0 |
-| berlin-lor-crime-atlas-2014-00-district-regions.geojson | 0 |
-| berlin-lor-crime-atlas-2015-00-districts.geojson | 0 |
-| berlin-lor-crime-atlas-2015-00-forecast-areas.geojson | 0 |
-| berlin-lor-crime-atlas-2015-00-district-regions.geojson | 0 |
-| berlin-lor-crime-atlas-2016-00-districts.geojson | 0 |
-| berlin-lor-crime-atlas-2016-00-forecast-areas.geojson | 0 |
-| berlin-lor-crime-atlas-2016-00-district-regions.geojson | 0 |
-| berlin-lor-crime-atlas-2017-00-districts.geojson | 0 |
-| berlin-lor-crime-atlas-2017-00-forecast-areas.geojson | 0 |
-| berlin-lor-crime-atlas-2017-00-district-regions.geojson | 0 |
-| berlin-lor-crime-atlas-2018-00-districts.geojson | 0 |
-| berlin-lor-crime-atlas-2018-00-forecast-areas.geojson | 0 |
-| berlin-lor-crime-atlas-2018-00-district-regions.geojson | 0 |
-| berlin-lor-crime-atlas-2019-00-districts.geojson | 0 |
-| berlin-lor-crime-atlas-2019-00-forecast-areas.geojson | 0 |
-| berlin-lor-crime-atlas-2019-00-district-regions.geojson | 0 |
-| berlin-lor-crime-atlas-2020-00-districts.geojson | 0 |
-| berlin-lor-crime-atlas-2020-00-forecast-areas.geojson | 0 |
-| berlin-lor-crime-atlas-2020-00-district-regions.geojson | 0 |
-| berlin-lor-crime-atlas-2021-00-districts.geojson | 0 |
-| berlin-lor-crime-atlas-2021-00-forecast-areas.geojson | 0 |
-| berlin-lor-crime-atlas-2021-00-district-regions.geojson | 0 |
-| berlin-lor-crime-atlas-2022-00-districts.geojson | 0 |
-| berlin-lor-crime-atlas-2022-00-forecast-areas.geojson | 0 |
-| berlin-lor-crime-atlas-2022-00-district-regions.geojson | 0 |
-| berlin-lor-crime-atlas-2023-00-districts.geojson | 0 |
-| berlin-lor-crime-atlas-2023-00-forecast-areas.geojson | 0 |
-| berlin-lor-crime-atlas-2023-00-district-regions.geojson | 0 |
+| berlin-lor-crime-atlas-2012-00-districts.geojson | 100 |
+| berlin-lor-crime-atlas-2012-00-forecast-areas.geojson | 100 |
+| berlin-lor-crime-atlas-2012-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2013-00-districts.geojson | 100 |
+| berlin-lor-crime-atlas-2013-00-forecast-areas.geojson | 100 |
+| berlin-lor-crime-atlas-2013-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2014-00-districts.geojson | 100 |
+| berlin-lor-crime-atlas-2014-00-forecast-areas.geojson | 100 |
+| berlin-lor-crime-atlas-2014-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2015-00-districts.geojson | 100 |
+| berlin-lor-crime-atlas-2015-00-forecast-areas.geojson | 100 |
+| berlin-lor-crime-atlas-2015-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2016-00-districts.geojson | 100 |
+| berlin-lor-crime-atlas-2016-00-forecast-areas.geojson | 100 |
+| berlin-lor-crime-atlas-2016-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2017-00-districts.geojson | 100 |
+| berlin-lor-crime-atlas-2017-00-forecast-areas.geojson | 100 |
+| berlin-lor-crime-atlas-2017-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2018-00-districts.geojson | 100 |
+| berlin-lor-crime-atlas-2018-00-forecast-areas.geojson | 100 |
+| berlin-lor-crime-atlas-2018-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2019-00-districts.geojson | 100 |
+| berlin-lor-crime-atlas-2019-00-forecast-areas.geojson | 100 |
+| berlin-lor-crime-atlas-2019-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2020-00-districts.geojson | 100 |
+| berlin-lor-crime-atlas-2020-00-forecast-areas.geojson | 100 |
+| berlin-lor-crime-atlas-2020-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2021-00-districts.geojson | 100 |
+| berlin-lor-crime-atlas-2021-00-forecast-areas.geojson | 100 |
+| berlin-lor-crime-atlas-2021-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2022-00-districts.geojson | 100 |
+| berlin-lor-crime-atlas-2022-00-forecast-areas.geojson | 100 |
+| berlin-lor-crime-atlas-2022-00-district-regions.geojson | 100 |
+| berlin-lor-crime-atlas-2023-00-districts.geojson | 100 |
+| berlin-lor-crime-atlas-2023-00-forecast-areas.geojson | 100 |
+| berlin-lor-crime-atlas-2023-00-district-regions.geojson | 100 |
 
 
 ## Classification

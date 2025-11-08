@@ -7,7 +7,7 @@
 * description: Data products providing Berlin crime data on different LOR hierarchy levels
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas
 * license: CC-BY 4.0
-* updated: 2025-10-21
+* updated: 2025-10-27
 
 ## Input Ports
 
@@ -110,209 +110,209 @@
 
 * [berlin-lor-matches.json](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/03-gold/berlin-lor-matches/berlin-lor-matches.json)
 
-### Berlin Lor Crime Atlas 2012 00
+### Berlin Lor Crime Atlas 2012 00 Csv
 
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2012-00
-* updated: 2025-07-06
+* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2012-00-csv
+* updated: 2025-10-27
 
 **Files**
 
-* [berlin-lor-crime-atlas-2012-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00/berlin-lor-crime-atlas-2012-00-case-numbers-city.csv)
-* [berlin-lor-crime-atlas-2012-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00/berlin-lor-crime-atlas-2012-00-case-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2012-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00/berlin-lor-crime-atlas-2012-00-case-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2012-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00/berlin-lor-crime-atlas-2012-00-case-numbers-forecast-areas.csv)
-* [berlin-lor-crime-atlas-2012-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00/berlin-lor-crime-atlas-2012-00-frequency-numbers-city.csv)
-* [berlin-lor-crime-atlas-2012-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00/berlin-lor-crime-atlas-2012-00-frequency-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2012-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00/berlin-lor-crime-atlas-2012-00-frequency-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2012-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00/berlin-lor-crime-atlas-2012-00-frequency-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2012-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00-csv/berlin-lor-crime-atlas-2012-00-case-numbers-city.csv)
+* [berlin-lor-crime-atlas-2012-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00-csv/berlin-lor-crime-atlas-2012-00-case-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2012-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00-csv/berlin-lor-crime-atlas-2012-00-case-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2012-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00-csv/berlin-lor-crime-atlas-2012-00-case-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2012-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00-csv/berlin-lor-crime-atlas-2012-00-frequency-numbers-city.csv)
+* [berlin-lor-crime-atlas-2012-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00-csv/berlin-lor-crime-atlas-2012-00-frequency-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2012-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00-csv/berlin-lor-crime-atlas-2012-00-frequency-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2012-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2012-00-csv/berlin-lor-crime-atlas-2012-00-frequency-numbers-forecast-areas.csv)
 
-### Berlin Lor Crime Atlas 2013 00
+### Berlin Lor Crime Atlas 2013 00 Csv
 
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2013-00
-* updated: 2025-07-06
+* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2013-00-csv
+* updated: 2025-10-27
 
 **Files**
 
-* [berlin-lor-crime-atlas-2013-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-case-numbers-city.csv)
-* [berlin-lor-crime-atlas-2013-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-case-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2013-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-case-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2013-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-case-numbers-forecast-areas.csv)
-* [berlin-lor-crime-atlas-2013-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-frequency-numbers-city.csv)
-* [berlin-lor-crime-atlas-2013-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-frequency-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2013-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-frequency-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2013-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00/berlin-lor-crime-atlas-2013-00-frequency-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2013-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00-csv/berlin-lor-crime-atlas-2013-00-case-numbers-city.csv)
+* [berlin-lor-crime-atlas-2013-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00-csv/berlin-lor-crime-atlas-2013-00-case-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2013-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00-csv/berlin-lor-crime-atlas-2013-00-case-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2013-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00-csv/berlin-lor-crime-atlas-2013-00-case-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2013-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00-csv/berlin-lor-crime-atlas-2013-00-frequency-numbers-city.csv)
+* [berlin-lor-crime-atlas-2013-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00-csv/berlin-lor-crime-atlas-2013-00-frequency-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2013-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00-csv/berlin-lor-crime-atlas-2013-00-frequency-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2013-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2013-00-csv/berlin-lor-crime-atlas-2013-00-frequency-numbers-forecast-areas.csv)
 
-### Berlin Lor Crime Atlas 2014 00
+### Berlin Lor Crime Atlas 2014 00 Csv
 
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2014-00
-* updated: 2025-07-06
+* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2014-00-csv
+* updated: 2025-10-27
 
 **Files**
 
-* [berlin-lor-crime-atlas-2014-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00-case-numbers-city.csv)
-* [berlin-lor-crime-atlas-2014-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00-case-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2014-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00-case-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2014-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00-case-numbers-forecast-areas.csv)
-* [berlin-lor-crime-atlas-2014-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00-frequency-numbers-city.csv)
-* [berlin-lor-crime-atlas-2014-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00-frequency-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2014-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00-frequency-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2014-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00/berlin-lor-crime-atlas-2014-00-frequency-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2014-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00-csv/berlin-lor-crime-atlas-2014-00-case-numbers-city.csv)
+* [berlin-lor-crime-atlas-2014-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00-csv/berlin-lor-crime-atlas-2014-00-case-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2014-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00-csv/berlin-lor-crime-atlas-2014-00-case-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2014-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00-csv/berlin-lor-crime-atlas-2014-00-case-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2014-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00-csv/berlin-lor-crime-atlas-2014-00-frequency-numbers-city.csv)
+* [berlin-lor-crime-atlas-2014-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00-csv/berlin-lor-crime-atlas-2014-00-frequency-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2014-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00-csv/berlin-lor-crime-atlas-2014-00-frequency-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2014-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2014-00-csv/berlin-lor-crime-atlas-2014-00-frequency-numbers-forecast-areas.csv)
 
-### Berlin Lor Crime Atlas 2015 00
+### Berlin Lor Crime Atlas 2015 00 Csv
 
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2015-00
-* updated: 2025-07-06
+* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2015-00-csv
+* updated: 2025-10-27
 
 **Files**
 
-* [berlin-lor-crime-atlas-2015-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00-case-numbers-city.csv)
-* [berlin-lor-crime-atlas-2015-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00-case-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2015-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00-case-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2015-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00-case-numbers-forecast-areas.csv)
-* [berlin-lor-crime-atlas-2015-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00-frequency-numbers-city.csv)
-* [berlin-lor-crime-atlas-2015-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00-frequency-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2015-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00-frequency-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2015-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00/berlin-lor-crime-atlas-2015-00-frequency-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2015-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00-csv/berlin-lor-crime-atlas-2015-00-case-numbers-city.csv)
+* [berlin-lor-crime-atlas-2015-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00-csv/berlin-lor-crime-atlas-2015-00-case-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2015-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00-csv/berlin-lor-crime-atlas-2015-00-case-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2015-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00-csv/berlin-lor-crime-atlas-2015-00-case-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2015-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00-csv/berlin-lor-crime-atlas-2015-00-frequency-numbers-city.csv)
+* [berlin-lor-crime-atlas-2015-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00-csv/berlin-lor-crime-atlas-2015-00-frequency-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2015-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00-csv/berlin-lor-crime-atlas-2015-00-frequency-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2015-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2015-00-csv/berlin-lor-crime-atlas-2015-00-frequency-numbers-forecast-areas.csv)
 
-### Berlin Lor Crime Atlas 2016 00
+### Berlin Lor Crime Atlas 2016 00 Csv
 
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2016-00
-* updated: 2025-07-06
+* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2016-00-csv
+* updated: 2025-10-27
 
 **Files**
 
-* [berlin-lor-crime-atlas-2016-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00/berlin-lor-crime-atlas-2016-00-case-numbers-city.csv)
-* [berlin-lor-crime-atlas-2016-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00/berlin-lor-crime-atlas-2016-00-case-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2016-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00/berlin-lor-crime-atlas-2016-00-case-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2016-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00/berlin-lor-crime-atlas-2016-00-case-numbers-forecast-areas.csv)
-* [berlin-lor-crime-atlas-2016-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00/berlin-lor-crime-atlas-2016-00-frequency-numbers-city.csv)
-* [berlin-lor-crime-atlas-2016-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00/berlin-lor-crime-atlas-2016-00-frequency-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2016-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00/berlin-lor-crime-atlas-2016-00-frequency-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2016-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00/berlin-lor-crime-atlas-2016-00-frequency-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2016-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00-csv/berlin-lor-crime-atlas-2016-00-case-numbers-city.csv)
+* [berlin-lor-crime-atlas-2016-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00-csv/berlin-lor-crime-atlas-2016-00-case-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2016-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00-csv/berlin-lor-crime-atlas-2016-00-case-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2016-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00-csv/berlin-lor-crime-atlas-2016-00-case-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2016-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00-csv/berlin-lor-crime-atlas-2016-00-frequency-numbers-city.csv)
+* [berlin-lor-crime-atlas-2016-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00-csv/berlin-lor-crime-atlas-2016-00-frequency-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2016-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00-csv/berlin-lor-crime-atlas-2016-00-frequency-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2016-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2016-00-csv/berlin-lor-crime-atlas-2016-00-frequency-numbers-forecast-areas.csv)
 
-### Berlin Lor Crime Atlas 2017 00
+### Berlin Lor Crime Atlas 2017 00 Csv
 
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2017-00
-* updated: 2025-07-06
+* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2017-00-csv
+* updated: 2025-10-27
 
 **Files**
 
-* [berlin-lor-crime-atlas-2017-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00/berlin-lor-crime-atlas-2017-00-case-numbers-city.csv)
-* [berlin-lor-crime-atlas-2017-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00/berlin-lor-crime-atlas-2017-00-case-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2017-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00/berlin-lor-crime-atlas-2017-00-case-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2017-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00/berlin-lor-crime-atlas-2017-00-case-numbers-forecast-areas.csv)
-* [berlin-lor-crime-atlas-2017-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00/berlin-lor-crime-atlas-2017-00-frequency-numbers-city.csv)
-* [berlin-lor-crime-atlas-2017-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00/berlin-lor-crime-atlas-2017-00-frequency-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2017-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00/berlin-lor-crime-atlas-2017-00-frequency-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2017-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00/berlin-lor-crime-atlas-2017-00-frequency-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2017-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00-csv/berlin-lor-crime-atlas-2017-00-case-numbers-city.csv)
+* [berlin-lor-crime-atlas-2017-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00-csv/berlin-lor-crime-atlas-2017-00-case-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2017-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00-csv/berlin-lor-crime-atlas-2017-00-case-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2017-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00-csv/berlin-lor-crime-atlas-2017-00-case-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2017-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00-csv/berlin-lor-crime-atlas-2017-00-frequency-numbers-city.csv)
+* [berlin-lor-crime-atlas-2017-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00-csv/berlin-lor-crime-atlas-2017-00-frequency-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2017-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00-csv/berlin-lor-crime-atlas-2017-00-frequency-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2017-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2017-00-csv/berlin-lor-crime-atlas-2017-00-frequency-numbers-forecast-areas.csv)
 
-### Berlin Lor Crime Atlas 2018 00
+### Berlin Lor Crime Atlas 2018 00 Csv
 
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2018-00
-* updated: 2025-07-06
+* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2018-00-csv
+* updated: 2025-10-27
 
 **Files**
 
-* [berlin-lor-crime-atlas-2018-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00/berlin-lor-crime-atlas-2018-00-case-numbers-city.csv)
-* [berlin-lor-crime-atlas-2018-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00/berlin-lor-crime-atlas-2018-00-case-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2018-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00/berlin-lor-crime-atlas-2018-00-case-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2018-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00/berlin-lor-crime-atlas-2018-00-case-numbers-forecast-areas.csv)
-* [berlin-lor-crime-atlas-2018-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00/berlin-lor-crime-atlas-2018-00-frequency-numbers-city.csv)
-* [berlin-lor-crime-atlas-2018-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00/berlin-lor-crime-atlas-2018-00-frequency-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2018-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00/berlin-lor-crime-atlas-2018-00-frequency-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2018-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00/berlin-lor-crime-atlas-2018-00-frequency-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2018-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00-csv/berlin-lor-crime-atlas-2018-00-case-numbers-city.csv)
+* [berlin-lor-crime-atlas-2018-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00-csv/berlin-lor-crime-atlas-2018-00-case-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2018-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00-csv/berlin-lor-crime-atlas-2018-00-case-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2018-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00-csv/berlin-lor-crime-atlas-2018-00-case-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2018-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00-csv/berlin-lor-crime-atlas-2018-00-frequency-numbers-city.csv)
+* [berlin-lor-crime-atlas-2018-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00-csv/berlin-lor-crime-atlas-2018-00-frequency-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2018-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00-csv/berlin-lor-crime-atlas-2018-00-frequency-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2018-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2018-00-csv/berlin-lor-crime-atlas-2018-00-frequency-numbers-forecast-areas.csv)
 
-### Berlin Lor Crime Atlas 2019 00
+### Berlin Lor Crime Atlas 2019 00 Csv
 
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2019-00
-* updated: 2025-07-06
+* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2019-00-csv
+* updated: 2025-10-27
 
 **Files**
 
-* [berlin-lor-crime-atlas-2019-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00/berlin-lor-crime-atlas-2019-00-case-numbers-city.csv)
-* [berlin-lor-crime-atlas-2019-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00/berlin-lor-crime-atlas-2019-00-case-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2019-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00/berlin-lor-crime-atlas-2019-00-case-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2019-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00/berlin-lor-crime-atlas-2019-00-case-numbers-forecast-areas.csv)
-* [berlin-lor-crime-atlas-2019-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00/berlin-lor-crime-atlas-2019-00-frequency-numbers-city.csv)
-* [berlin-lor-crime-atlas-2019-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00/berlin-lor-crime-atlas-2019-00-frequency-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2019-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00/berlin-lor-crime-atlas-2019-00-frequency-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2019-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00/berlin-lor-crime-atlas-2019-00-frequency-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2019-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00-csv/berlin-lor-crime-atlas-2019-00-case-numbers-city.csv)
+* [berlin-lor-crime-atlas-2019-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00-csv/berlin-lor-crime-atlas-2019-00-case-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2019-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00-csv/berlin-lor-crime-atlas-2019-00-case-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2019-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00-csv/berlin-lor-crime-atlas-2019-00-case-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2019-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00-csv/berlin-lor-crime-atlas-2019-00-frequency-numbers-city.csv)
+* [berlin-lor-crime-atlas-2019-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00-csv/berlin-lor-crime-atlas-2019-00-frequency-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2019-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00-csv/berlin-lor-crime-atlas-2019-00-frequency-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2019-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2019-00-csv/berlin-lor-crime-atlas-2019-00-frequency-numbers-forecast-areas.csv)
 
-### Berlin Lor Crime Atlas 2020 00
+### Berlin Lor Crime Atlas 2020 00 Csv
 
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2020-00
-* updated: 2025-07-06
+* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2020-00-csv
+* updated: 2025-10-27
 
 **Files**
 
-* [berlin-lor-crime-atlas-2020-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00/berlin-lor-crime-atlas-2020-00-case-numbers-city.csv)
-* [berlin-lor-crime-atlas-2020-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00/berlin-lor-crime-atlas-2020-00-case-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2020-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00/berlin-lor-crime-atlas-2020-00-case-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2020-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00/berlin-lor-crime-atlas-2020-00-case-numbers-forecast-areas.csv)
-* [berlin-lor-crime-atlas-2020-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00/berlin-lor-crime-atlas-2020-00-frequency-numbers-city.csv)
-* [berlin-lor-crime-atlas-2020-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00/berlin-lor-crime-atlas-2020-00-frequency-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2020-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00/berlin-lor-crime-atlas-2020-00-frequency-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2020-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00/berlin-lor-crime-atlas-2020-00-frequency-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2020-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00-csv/berlin-lor-crime-atlas-2020-00-case-numbers-city.csv)
+* [berlin-lor-crime-atlas-2020-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00-csv/berlin-lor-crime-atlas-2020-00-case-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2020-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00-csv/berlin-lor-crime-atlas-2020-00-case-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2020-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00-csv/berlin-lor-crime-atlas-2020-00-case-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2020-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00-csv/berlin-lor-crime-atlas-2020-00-frequency-numbers-city.csv)
+* [berlin-lor-crime-atlas-2020-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00-csv/berlin-lor-crime-atlas-2020-00-frequency-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2020-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00-csv/berlin-lor-crime-atlas-2020-00-frequency-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2020-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2020-00-csv/berlin-lor-crime-atlas-2020-00-frequency-numbers-forecast-areas.csv)
 
-### Berlin Lor Crime Atlas 2021 00
+### Berlin Lor Crime Atlas 2021 00 Csv
 
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2021-00
-* updated: 2025-07-06
+* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2021-00-csv
+* updated: 2025-10-27
 
 **Files**
 
-* [berlin-lor-crime-atlas-2021-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00/berlin-lor-crime-atlas-2021-00-case-numbers-city.csv)
-* [berlin-lor-crime-atlas-2021-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00/berlin-lor-crime-atlas-2021-00-case-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2021-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00/berlin-lor-crime-atlas-2021-00-case-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2021-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00/berlin-lor-crime-atlas-2021-00-case-numbers-forecast-areas.csv)
-* [berlin-lor-crime-atlas-2021-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00/berlin-lor-crime-atlas-2021-00-frequency-numbers-city.csv)
-* [berlin-lor-crime-atlas-2021-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00/berlin-lor-crime-atlas-2021-00-frequency-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2021-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00/berlin-lor-crime-atlas-2021-00-frequency-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2021-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00/berlin-lor-crime-atlas-2021-00-frequency-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2021-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00-csv/berlin-lor-crime-atlas-2021-00-case-numbers-city.csv)
+* [berlin-lor-crime-atlas-2021-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00-csv/berlin-lor-crime-atlas-2021-00-case-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2021-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00-csv/berlin-lor-crime-atlas-2021-00-case-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2021-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00-csv/berlin-lor-crime-atlas-2021-00-case-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2021-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00-csv/berlin-lor-crime-atlas-2021-00-frequency-numbers-city.csv)
+* [berlin-lor-crime-atlas-2021-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00-csv/berlin-lor-crime-atlas-2021-00-frequency-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2021-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00-csv/berlin-lor-crime-atlas-2021-00-frequency-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2021-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2021-00-csv/berlin-lor-crime-atlas-2021-00-frequency-numbers-forecast-areas.csv)
 
-### Berlin Lor Crime Atlas 2022 00
+### Berlin Lor Crime Atlas 2022 00 Csv
 
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2022-00
-* updated: 2025-07-06
+* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2022-00-csv
+* updated: 2025-10-27
 
 **Files**
 
-* [berlin-lor-crime-atlas-2022-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00/berlin-lor-crime-atlas-2022-00-case-numbers-city.csv)
-* [berlin-lor-crime-atlas-2022-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00/berlin-lor-crime-atlas-2022-00-case-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2022-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00/berlin-lor-crime-atlas-2022-00-case-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2022-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00/berlin-lor-crime-atlas-2022-00-case-numbers-forecast-areas.csv)
-* [berlin-lor-crime-atlas-2022-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00/berlin-lor-crime-atlas-2022-00-frequency-numbers-city.csv)
-* [berlin-lor-crime-atlas-2022-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00/berlin-lor-crime-atlas-2022-00-frequency-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2022-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00/berlin-lor-crime-atlas-2022-00-frequency-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2022-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00/berlin-lor-crime-atlas-2022-00-frequency-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2022-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00-csv/berlin-lor-crime-atlas-2022-00-case-numbers-city.csv)
+* [berlin-lor-crime-atlas-2022-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00-csv/berlin-lor-crime-atlas-2022-00-case-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2022-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00-csv/berlin-lor-crime-atlas-2022-00-case-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2022-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00-csv/berlin-lor-crime-atlas-2022-00-case-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2022-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00-csv/berlin-lor-crime-atlas-2022-00-frequency-numbers-city.csv)
+* [berlin-lor-crime-atlas-2022-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00-csv/berlin-lor-crime-atlas-2022-00-frequency-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2022-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00-csv/berlin-lor-crime-atlas-2022-00-frequency-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2022-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2022-00-csv/berlin-lor-crime-atlas-2022-00-frequency-numbers-forecast-areas.csv)
 
-### Berlin Lor Crime Atlas 2023 00
+### Berlin Lor Crime Atlas 2023 00 Csv
 
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2023-00
-* updated: 2025-07-06
+* url: https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/tree/main/data/03-gold/berlin-lor-crime-atlas-2023-00-csv
+* updated: 2025-10-27
 
 **Files**
 
-* [berlin-lor-crime-atlas-2023-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00/berlin-lor-crime-atlas-2023-00-case-numbers-city.csv)
-* [berlin-lor-crime-atlas-2023-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00/berlin-lor-crime-atlas-2023-00-case-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2023-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00/berlin-lor-crime-atlas-2023-00-case-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2023-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00/berlin-lor-crime-atlas-2023-00-case-numbers-forecast-areas.csv)
-* [berlin-lor-crime-atlas-2023-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00/berlin-lor-crime-atlas-2023-00-frequency-numbers-city.csv)
-* [berlin-lor-crime-atlas-2023-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00/berlin-lor-crime-atlas-2023-00-frequency-numbers-district-regions.csv)
-* [berlin-lor-crime-atlas-2023-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00/berlin-lor-crime-atlas-2023-00-frequency-numbers-districts.csv)
-* [berlin-lor-crime-atlas-2023-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00/berlin-lor-crime-atlas-2023-00-frequency-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2023-00-case-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00-csv/berlin-lor-crime-atlas-2023-00-case-numbers-city.csv)
+* [berlin-lor-crime-atlas-2023-00-case-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00-csv/berlin-lor-crime-atlas-2023-00-case-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2023-00-case-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00-csv/berlin-lor-crime-atlas-2023-00-case-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2023-00-case-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00-csv/berlin-lor-crime-atlas-2023-00-case-numbers-forecast-areas.csv)
+* [berlin-lor-crime-atlas-2023-00-frequency-numbers-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00-csv/berlin-lor-crime-atlas-2023-00-frequency-numbers-city.csv)
+* [berlin-lor-crime-atlas-2023-00-frequency-numbers-district-regions.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00-csv/berlin-lor-crime-atlas-2023-00-frequency-numbers-district-regions.csv)
+* [berlin-lor-crime-atlas-2023-00-frequency-numbers-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00-csv/berlin-lor-crime-atlas-2023-00-frequency-numbers-districts.csv)
+* [berlin-lor-crime-atlas-2023-00-frequency-numbers-forecast-areas.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/main/data/03-gold/berlin-lor-crime-atlas-2023-00-csv/berlin-lor-crime-atlas-2023-00-frequency-numbers-forecast-areas.csv)
 
 ## Transformation Steps
 
@@ -326,7 +326,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/tree/main/data/03-gold/berlin-lor-crime-atlas-geojson
 * license: CC-BY 4.0
-* updated: 2025-10-21
+* updated: 2025-10-27
 
 **Files**
 
@@ -384,7 +384,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/tree/main/data/03-gold/berlin-lor-crime-atlas-statistics
 * license: CC-BY 4.0
-* updated: 2025-10-21
+* updated: 2025-10-27
 
 **Files**
 

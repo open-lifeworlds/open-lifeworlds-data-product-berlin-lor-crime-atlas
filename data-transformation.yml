@@ -56,7 +56,7 @@ attribute_groups:
 input_port_groups:
   - id: berlin-lor-crime-atlas
     input_ports:
-      - id: berlin-lor-crime-atlas-2012-00
+      - id: berlin-lor-crime-atlas-2012-00-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
             target_file_name: berlin-lor-crime-atlas-2012-00-city.geojson
@@ -78,7 +78,7 @@ input_port_groups:
             source_files:
               - { source_file_name: berlin-lor-crime-atlas-2012-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
               - { source_file_name: berlin-lor-crime-atlas-2012-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
-      - id: berlin-lor-crime-atlas-2013-00
+      - id: berlin-lor-crime-atlas-2013-00-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
             target_file_name: berlin-lor-crime-atlas-2013-00-city.geojson
@@ -100,7 +100,7 @@ input_port_groups:
             source_files:
               - { source_file_name: berlin-lor-crime-atlas-2013-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
               - { source_file_name: berlin-lor-crime-atlas-2013-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
-      - id: berlin-lor-crime-atlas-2014-00
+      - id: berlin-lor-crime-atlas-2014-00-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
             target_file_name: berlin-lor-crime-atlas-2014-00-city.geojson
@@ -122,7 +122,7 @@ input_port_groups:
             source_files:
               - { source_file_name: berlin-lor-crime-atlas-2014-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
               - { source_file_name: berlin-lor-crime-atlas-2014-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
-      - id: berlin-lor-crime-atlas-2015-00
+      - id: berlin-lor-crime-atlas-2015-00-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
             target_file_name: berlin-lor-crime-atlas-2015-00-city.geojson
@@ -144,7 +144,7 @@ input_port_groups:
             source_files:
               - { source_file_name: berlin-lor-crime-atlas-2015-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
               - { source_file_name: berlin-lor-crime-atlas-2015-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
-      - id: berlin-lor-crime-atlas-2016-00
+      - id: berlin-lor-crime-atlas-2016-00-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
             target_file_name: berlin-lor-crime-atlas-2016-00-city.geojson
@@ -166,7 +166,7 @@ input_port_groups:
             source_files:
               - { source_file_name: berlin-lor-crime-atlas-2016-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
               - { source_file_name: berlin-lor-crime-atlas-2016-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
-      - id: berlin-lor-crime-atlas-2017-00
+      - id: berlin-lor-crime-atlas-2017-00-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
             target_file_name: berlin-lor-crime-atlas-2017-00-city.geojson
@@ -188,7 +188,7 @@ input_port_groups:
             source_files:
               - { source_file_name: berlin-lor-crime-atlas-2017-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
               - { source_file_name: berlin-lor-crime-atlas-2017-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
-      - id: berlin-lor-crime-atlas-2018-00
+      - id: berlin-lor-crime-atlas-2018-00-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
             target_file_name: berlin-lor-crime-atlas-2018-00-city.geojson
@@ -210,7 +210,7 @@ input_port_groups:
             source_files:
               - { source_file_name: berlin-lor-crime-atlas-2018-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
               - { source_file_name: berlin-lor-crime-atlas-2018-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
-      - id: berlin-lor-crime-atlas-2019-00
+      - id: berlin-lor-crime-atlas-2019-00-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
             target_file_name: berlin-lor-crime-atlas-2019-00-city.geojson
@@ -232,7 +232,7 @@ input_port_groups:
             source_files:
               - { source_file_name: berlin-lor-crime-atlas-2019-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
               - { source_file_name: berlin-lor-crime-atlas-2019-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
-      - id: berlin-lor-crime-atlas-2020-00
+      - id: berlin-lor-crime-atlas-2020-00-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
             target_file_name: berlin-lor-crime-atlas-2020-00-city.geojson
@@ -254,7 +254,7 @@ input_port_groups:
             source_files:
               - { source_file_name: berlin-lor-crime-atlas-2020-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
               - { source_file_name: berlin-lor-crime-atlas-2020-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
-      - id: berlin-lor-crime-atlas-2021-00
+      - id: berlin-lor-crime-atlas-2021-00-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
             target_file_name: berlin-lor-crime-atlas-2021-00-city.geojson
@@ -276,7 +276,7 @@ input_port_groups:
             source_files:
               - { source_file_name: berlin-lor-crime-atlas-2021-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
               - { source_file_name: berlin-lor-crime-atlas-2021-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
-      - id: berlin-lor-crime-atlas-2022-00
+      - id: berlin-lor-crime-atlas-2022-00-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
             target_file_name: berlin-lor-crime-atlas-2022-00-city.geojson
@@ -298,7 +298,7 @@ input_port_groups:
             source_files:
               - { source_file_name: berlin-lor-crime-atlas-2022-00-case-numbers-district-regions.csv, source_file_prefix: case_numbers_, attributes: *case_numbers }
               - { source_file_name: berlin-lor-crime-atlas-2022-00-frequency-numbers-district-regions.csv, source_file_prefix: frequency_numbers_, attributes: *frequency_numbers }
-      - id: berlin-lor-crime-atlas-2023-00
+      - id: berlin-lor-crime-atlas-2023-00-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
             target_file_name: berlin-lor-crime-atlas-2023-00-city.geojson

@@ -8,13 +8,13 @@
 
 * output file formats: geojson
 * categories: timeseries
-* description: Data product combining Berlin LOR crime atlas data and geodata
-* logo URL: https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-berlin-lor-crime-atlas/refs/heads/main/logo-with-text.png
+* description: Data products providing Berlin crime data on different LOR hierarchy levels
+* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
 * product ID: berlin-lor-crime-atlas
 * product series: Berlin Timeseries Series
 * status: active
-* tags: Berlin, crime
-* type: consumer-aligned
+* tags: berlin, crime
+* type: source-aligned
 * value proposition: Combining Berlin LOR crime atlas data and geodata
 * version: 1.0
 * visibility: public

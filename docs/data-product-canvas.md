@@ -7,7 +7,7 @@
 * description: Data products providing Berlin crime data on different LOR hierarchy levels
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas
 * license: CC-BY 4.0
-* updated: 2025-10-29
+* updated: 2025-10-31
 
 ## Input Ports
 
@@ -326,7 +326,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/tree/main/data/03-gold/berlin-lor-crime-atlas-geojson
 * license: CC-BY 4.0
-* updated: 2025-10-29
+* updated: 2025-10-31
 
 **Files**
 
@@ -378,6 +378,17 @@
 * [berlin-lor-crime-atlas-2023-00-district-regions.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2023-00-district-regions.geojson)
 * [berlin-lor-crime-atlas-2023-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2023-00-districts.geojson)
 * [berlin-lor-crime-atlas-2023-00-forecast-areas.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/03-gold/berlin-lor-crime-atlas-geojson/berlin-lor-crime-atlas-2023-00-forecast-areas.geojson)
+
+### Berlin Lor Crime Atlas Statistics
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/tree/main/data/03-gold/berlin-lor-crime-atlas-statistics
+* license: CC-BY 4.0
+* updated: 2025-10-31
+
+**Files**
+
+* [berlin-lor-crime-atlas-statistics.json](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas/main/data/03-gold/berlin-lor-crime-atlas-statistics/berlin-lor-crime-atlas-statistics.json)
 
 ## Observability
 

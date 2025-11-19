@@ -66,6 +66,8 @@
 ### Output Ports
 #### berlin-lor-crime-atlas-geojson
 * fully qualified name: berlin-lor-crime-atlas-geojson
+#### berlin-lor-crime-atlas-statistics
+* fully qualified name: berlin-lor-crime-atlas-statistics
 
 
 ---
